@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TalentPoc.ApiService.props" />
+</Project>
