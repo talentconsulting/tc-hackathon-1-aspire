@@ -1,0 +1,104 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.AppHost", "Aspire.AppHost\Aspire.AppHost.csproj", "{C184C088-50CA-418C-B0C3-4890F22AE561}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.ServiceDefaults", "Aspire.ServiceDefaults\Aspire.ServiceDefaults.csproj", "{90640AB5-B40F-EB9A-9160-59682C5D022E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.Web", "Aspire.Web\Aspire.Web.csproj", "{86BD043B-F684-D7C7-49DF-022DEB407AF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFA.DAS.CollectionCalendar.InnerAPI", "..\..\esfa\das-collection-calendar\src\SFA.DAS.CollectionCalendar.InnerAPI\SFA.DAS.CollectionCalendar.InnerAPI.csproj", "{393A9F7C-E7B2-5F88-6025-4AC5DCE6114F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFA.DAS.CollectionCalendar.AcceptanceTests", "..\..\esfa\das-collection-calendar\src\SFA.DAS.CollectionCalendar.AcceptanceTests\SFA.DAS.CollectionCalendar.AcceptanceTests.csproj", "{E2A83AF4-56D8-62AA-0B29-6CE99B15A804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFA.DAS.CollectionCalendar.DataAccess", "..\..\esfa\das-collection-calendar\src\SFA.DAS.CollectionCalendar.DataAccess\SFA.DAS.CollectionCalendar.DataAccess.csproj", "{AC3A5574-239D-9AF6-2981-2DB7BA53BBAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFA.DAS.CollectionCalendar.DataAccess.UnitTests", "..\..\esfa\das-collection-calendar\src\SFA.DAS.CollectionCalendar.DataAccess.UnitTests\SFA.DAS.CollectionCalendar.DataAccess.UnitTests.csproj", "{8D5D8597-8724-8CB9-7D1E-267E00F99306}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SFA.DAS.CollectionCalendar.Database", "..\..\esfa\das-collection-calendar\src\SFA.DAS.CollectionCalendar.Database\SFA.DAS.CollectionCalendar.Database.sqlproj", "{A0961153-11F0-4D5B-B5D6-683FC8F5B810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFA.DAS.CollectionCalendar.DataTransferObjects", "..\..\esfa\das-collection-calendar\src\SFA.DAS.CollectionCalendar.DataTransferObjects\SFA.DAS.CollectionCalendar.DataTransferObjects.csproj", "{B3B5D904-1773-04EB-599B-15CB3446522C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFA.DAS.CollectionCalendar.Domain", "..\..\esfa\das-collection-calendar\src\SFA.DAS.CollectionCalendar.Domain\SFA.DAS.CollectionCalendar.Domain.csproj", "{0F11EB44-7E54-F8D9-FDDF-AFA1CB183978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFA.DAS.CollectionCalendar.InnerApi.UnitTests", "..\..\esfa\das-collection-calendar\src\SFA.DAS.CollectionCalendar.InnerApi.UnitTests\SFA.DAS.CollectionCalendar.InnerApi.UnitTests.csproj", "{5050D151-08E2-EFFE-EAE5-867A5C4DE824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFA.DAS.CollectionCalendar.Queries", "..\..\esfa\das-collection-calendar\src\SFA.DAS.CollectionCalendar.Queries\SFA.DAS.CollectionCalendar.Queries.csproj", "{76B9B89C-55E4-2E8C-5349-1183A9C3E606}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFA.DAS.CollectionCalendar.Queries.UnitTests", "..\..\esfa\das-collection-calendar\src\SFA.DAS.CollectionCalendar.Queries.UnitTests\SFA.DAS.CollectionCalendar.Queries.UnitTests.csproj", "{9ACFD26F-BD00-1633-ABC7-7373FBF10E22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFA.DAS.CollectionCalendar.Infrastructure", "..\..\esfa\das-collection-calendar\src\SFA.DAS.CollectionCalendar.Infrastructure\SFA.DAS.CollectionCalendar.Infrastructure.csproj", "{EE697EED-39FC-5518-E471-8073A04C06F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C184C088-50CA-418C-B0C3-4890F22AE561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C184C088-50CA-418C-B0C3-4890F22AE561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C184C088-50CA-418C-B0C3-4890F22AE561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C184C088-50CA-418C-B0C3-4890F22AE561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90640AB5-B40F-EB9A-9160-59682C5D022E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90640AB5-B40F-EB9A-9160-59682C5D022E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90640AB5-B40F-EB9A-9160-59682C5D022E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90640AB5-B40F-EB9A-9160-59682C5D022E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86BD043B-F684-D7C7-49DF-022DEB407AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86BD043B-F684-D7C7-49DF-022DEB407AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86BD043B-F684-D7C7-49DF-022DEB407AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86BD043B-F684-D7C7-49DF-022DEB407AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{393A9F7C-E7B2-5F88-6025-4AC5DCE6114F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393A9F7C-E7B2-5F88-6025-4AC5DCE6114F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393A9F7C-E7B2-5F88-6025-4AC5DCE6114F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393A9F7C-E7B2-5F88-6025-4AC5DCE6114F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2A83AF4-56D8-62AA-0B29-6CE99B15A804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2A83AF4-56D8-62AA-0B29-6CE99B15A804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2A83AF4-56D8-62AA-0B29-6CE99B15A804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2A83AF4-56D8-62AA-0B29-6CE99B15A804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3A5574-239D-9AF6-2981-2DB7BA53BBAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3A5574-239D-9AF6-2981-2DB7BA53BBAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3A5574-239D-9AF6-2981-2DB7BA53BBAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3A5574-239D-9AF6-2981-2DB7BA53BBAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D5D8597-8724-8CB9-7D1E-267E00F99306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D5D8597-8724-8CB9-7D1E-267E00F99306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D5D8597-8724-8CB9-7D1E-267E00F99306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D5D8597-8724-8CB9-7D1E-267E00F99306}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0961153-11F0-4D5B-B5D6-683FC8F5B810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0961153-11F0-4D5B-B5D6-683FC8F5B810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0961153-11F0-4D5B-B5D6-683FC8F5B810}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A0961153-11F0-4D5B-B5D6-683FC8F5B810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0961153-11F0-4D5B-B5D6-683FC8F5B810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0961153-11F0-4D5B-B5D6-683FC8F5B810}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B3B5D904-1773-04EB-599B-15CB3446522C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3B5D904-1773-04EB-599B-15CB3446522C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3B5D904-1773-04EB-599B-15CB3446522C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3B5D904-1773-04EB-599B-15CB3446522C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F11EB44-7E54-F8D9-FDDF-AFA1CB183978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F11EB44-7E54-F8D9-FDDF-AFA1CB183978}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F11EB44-7E54-F8D9-FDDF-AFA1CB183978}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F11EB44-7E54-F8D9-FDDF-AFA1CB183978}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5050D151-08E2-EFFE-EAE5-867A5C4DE824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5050D151-08E2-EFFE-EAE5-867A5C4DE824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5050D151-08E2-EFFE-EAE5-867A5C4DE824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5050D151-08E2-EFFE-EAE5-867A5C4DE824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76B9B89C-55E4-2E8C-5349-1183A9C3E606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B9B89C-55E4-2E8C-5349-1183A9C3E606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B9B89C-55E4-2E8C-5349-1183A9C3E606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B9B89C-55E4-2E8C-5349-1183A9C3E606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9ACFD26F-BD00-1633-ABC7-7373FBF10E22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ACFD26F-BD00-1633-ABC7-7373FBF10E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ACFD26F-BD00-1633-ABC7-7373FBF10E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ACFD26F-BD00-1633-ABC7-7373FBF10E22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE697EED-39FC-5518-E471-8073A04C06F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE697EED-39FC-5518-E471-8073A04C06F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE697EED-39FC-5518-E471-8073A04C06F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE697EED-39FC-5518-E471-8073A04C06F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77249582-CB7B-475E-9D0C-A0D4D85CF364}
+	EndGlobalSection
+EndGlobal
